@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Aligns content at the bottom */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box p {
+    margin: 0;
+    text-align: center;
+}
